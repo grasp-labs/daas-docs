@@ -7,18 +7,6 @@ Welcome to the Graplabs DAAS Documentation Repository.
 ```sh
 ├── babel.config.js
 ├── blog
-│   ├── 2019-05-28-hola.md
-│   ├── 2019-05-29-hello-world.md
-│   └── 2019-05-30-welcome.md
-├── build
-│   ├── 404.html
-│   ├── assets
-│   ├── blog
-│   ├── docs
-│   ├── img
-│   ├── index.html
-│   ├── markdown-page
-│   └── sitemap.xml
 ├── docs
 │   ├── intro.md
 │   ├── tutorial-basics

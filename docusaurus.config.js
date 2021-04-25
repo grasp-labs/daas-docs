@@ -1,17 +1,17 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Grasplabs DAAS',
+  tagline: 'Enabling companies to develop centralized financial data solution.',
+  url: 'https://grasplabs.no',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'grasplabs',
+  projectName: 'daas-docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Grasplabs DAAS Documentation',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -19,16 +19,11 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'samples/index',
           position: 'left',
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -39,42 +34,34 @@ module.exports = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/docs/samples/index',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Grasplabs DAAS',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'GitHub',
+              href: 'https://github.com/grasp-labs/daas-docs.git',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+              label: 'Grasplabs',
+              href: 'https://grasplabs.no',
+            }
           ],
         },
         {
-          title: 'More',
+          title: 'Contact',
           items: [
             {
               label: 'Blog',
               to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
+            }
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Grasplabs, AS. Built with Docusaurus.`,
     },
   },
   presets: [

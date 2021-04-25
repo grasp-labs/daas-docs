@@ -4,32 +4,29 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'About DAAS',
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+          Get a high level overview of what DAAS is and how it can chagne the way we work.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Status',
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+          Find out more information about the current status of DAAS in Grasplabs and what roadmap includes.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Using DAAS',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Get information on how to use DAAS.
       </>
     ),
   },
